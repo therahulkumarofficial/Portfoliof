@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
-/* import Logo from "../../assets/logo.svg";
-import LightLogo from "../../assets/light-logo.svg"; */
 
 import {
     RiHome2Line,
@@ -24,7 +22,6 @@ const Sidebar = (props) => {
         <>
             <aside className={toggle ? 'aside show-menu' : 'aside'}>
                 <a href="#home" className="nav__logo">
-                    {/* <img src={props.theme === 'light' ? LightLogo : Logo} alt="logo" /> */}
                 </a>
 
                 <nav className="nav">
