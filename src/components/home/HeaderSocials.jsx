@@ -8,14 +8,6 @@ const HeaderSocials = () => {
                 <FaGithub />
             </a>
 
-            {/* <a href='https://hashnode.com/@gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <SiHashnode />
-            </a> */}
-
-            {/* <a href='https://dev.to/gregsithole' className='home__social-link' target='_blank' rel='noreferrer'>
-                <FaDev />
-            </a> */}
-
             <a href='https://www.linkedin.com/in/shivam-saurabh-095764195/' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaLinkedinIn />
             </a>
