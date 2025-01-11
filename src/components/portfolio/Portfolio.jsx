@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
-
-import { RiGithubLine, RiLink } from "react-icons/ri";
-
-import { motion } from "framer-motion";
-
 const Portfolio = () => {
-	const [activeFilter, setActiveFilter] = useState(0);
+	const [activeFilter] = useState(0);
 
 	return (
 		<section className="portfolio container section" id="portfolio">
